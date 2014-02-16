@@ -688,6 +688,14 @@ hr {
   margin: 0 0 20px;
 }
 
+.simple {
+  background: none;
+  border: 1px solid #696969;
+  outline: none;
+  height: 0;
+  margin: 0 0 20px; 
+}
+
 dt {
   color: #F0E7D5;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -766,11 +774,11 @@ dt {
   -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
 }
-#header nav li.fork {
+#header nav li.questions {
   float: left;
   margin-left: 0px;
 }
-#header nav li.downloads {
+#header nav li.contribute {
   float: right;
   margin-left: 6px;
 }
@@ -818,6 +826,21 @@ section #title .credits.left {
 }
 section #title .credits.right {
   float: right;
+}
+
+section section {
+  padding: 5px 0px 5px 0px;
+  margin: 20px 0;
+  margin-top: 10px;
+}
+section section p {
+  margin: 0;
+}
+section section li {
+  margin-top: 10px;
+}
+section section li a {
+  display: inline;
 }
 
 @media print, screen and (max-width: 720px) {
